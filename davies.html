@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Davies — Software Engineer</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="davies.css" />
+</head>
+
+<body>
+
+    <header class="topbar">
+        <div class="inner">
+            <a class="logo" href="#">
+                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="6" y="6" width="36" height="36" rx="6" stroke="white" stroke-width="2" />
+                </svg>
+                Davies
+            </a>
+
+            <nav class="primary" aria-label="Main navigation">
+                <a href="#about">About me</a>
+                <a href="#skills">Skills</a>
+                <a href="#portfolio">Portfolio</a>
+                <a class ="btn-cta" href="#newsletter">Newsletter</a>
+                <a class="btn-cta" href="#contact">CONTACT ME</a>
+            </nav>
+
+            <button id="mobile-toggle" aria-label="Menu"
+                style="display:none;background:transparent;border:0;color:white;font-size:20px">☰</button>
+        </div>
+    </header>
+    <div class="box">
+        <!-- Hero -->
+        <section class="hero">
+            <div class="split">
+                <div class="container">
+                    <div class="hero-left">
+                        <div class="greeting">Hi, I am <span style="color:var(--gold)">Mfura Davies</span></div>
+                        <div class="role">Software developer and <br>AI Enginner</div>
+
+                        <div class="social-row">
+                            <a class="social" href="https://x.com/DaviesMfura" aria-label="X"
+                                style="background-color: black;"><img src="x.png" style="height:18px;width:18px" alt="link to x acccount"></a>
+                            </a>
+                            <a class="social" href="https://github.com/Mfuradavies" aria-label="Github"
+                                style="background-color: black;"><img src="images.png"
+                                    style="height:18px;width:18px;border-radius: 2px;" alt="github personal profile link">
+                            </a>
+                            <a class="social" href="https://www.instagram.com/mfura_davies/" aria-label="Instagram"
+                                style="background-color: #000000;"><img src="instagram.png"
+                                    style="height:18px;width:18px" alt="intagram link">
+                            </a>
+                            <a class="social" href="https://www.linkedin.com/in/mfura-davies-a02a76221/"
+                                aria-label="LinkedIn" style="background-color: rgb(30, 115, 155);"><img
+                                    src="linkedin.png" style="height: 18px; width: 18px;" alt="linkedin link">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="hero-right">
+                        <div class="profile-frame">
+                            <img class="profile"
+                                src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80"
+                                alt="Mfura Davies picture" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="dark-bg">
+            <div class="about">
+                <div class="about-photo">
+                    <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80"
+                        alt="profile small" />
+                </div>
+                <div>
+                    <h2 style="color:white;margin:0 0 12px;font-size:28px">About me</h2>
+                    <p class="details">I'm a young and ethusiastic enginner breaking into the
+                        field of software development and implementing
+                        AI solutions in businesses via deleoping custom
+                        tailored tools or consultation</p>
+
+                    <div class="info-list">
+                        <div class="info-item"><strong>Email</strong>
+                            <div style="color:var(--muted);margin-top:6px">hello@davies.dev</div>
+                        </div>
+                        <div class="info-item"><strong>Phone</strong>
+                            <div style="color:var(--muted);margin-top:6px">+250 XXX XXX XXX</div>
+                        </div>
+                        <div class="info-item"><strong>Location</strong>
+                            <div style="color:var(--muted);margin-top:6px">Kigali ,Rwanda</div>
+                        </div>
+                        <div class="info-item"><strong>Availability</strong>
+                            <div style="color:var(--muted);margin-top:6px">Freelance & Full‑time Dev</div>
+                        </div>
+                    </div>
+
+                    <a class="download" href="#btn-cta" style="text-decoration: none;">Contact me</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills / Services -->
+        <section id="skills">
+            <div style="max-width:var(--max-width);margin: 0;padding:0">
+                <h3 style="color:white">Services & Skills</h3>
+                <div class="services-grid" style="margin-top:18px">
+                    <div class="card">
+                        <div style="display:flex;gap:12px;align-items:center">
+                            <div class="icon">B</div>
+                            <h4>Web Development</h4>
+                        </div>
+                        <p style="color:var(--muted);margin-top:8px">Offer low-cost website designs and mookups offering
+                            connectivity and accessibility for customers.</p>
+                    </div>
+                    <div class="card">
+                        <div style="display:flex;gap:12px;align-items:center">
+                            <div class="icon">U</div>
+                            <h4>AI/Automation</h4>
+                        </div>
+                        <p style="color:var(--muted);margin-top:8px">Implementation of ai tools in local businesses
+                            offfering trustworthy automations.</p>
+                    </div>
+                    <div class="card">
+                        <div style="display:flex;gap:12px;align-items:center">
+                            <div class="icon">P</div>
+                            <h4>Prototyping</h4>
+                        </div>
+                        <p style="color:var(--muted);margin-top:8px">Interactive prototypes and motion direction to
+                            communicate micro-interactions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience / Education Timeline -->
+        <section class="dark-bg">
+            <div class="timeline">
+                <h3 style="color:white">Experience</h3>
+                <div style="padding-top:0px">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2022 — Present</div>
+                        <div class="timeline-body"><strong style="color:white">Senior UI Developer</strong>
+                            <div style="color:var(--muted)">Design Systems Co. — Led component system and accessibility
+                                initiatives.</div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2019 — 2022</div>
+                        <div class="timeline-body"><strong style="color:white">Product Designer</strong>
+                            <div style="color:var(--muted)">Studio Pixel — Led brand and product work for SaaS clients.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">Education</div>
+                        <div class="timeline-body"><strong style="color:white">BA (Hons) Visual Communication</strong>
+                            <div style="color:var(--muted)">University of the Arts</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio grid (simple) -->
+        <section id="portfolio">
+            <div style="max-width:var(--max-width);margin:0 auto;padding:0 0px">
+                <h3 style="color:white">Portfolio</h3>
+                <div
+                    style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:18px">
+                    <div style="border-radius:10px;overflow:hidden"><img
+                            src="https://images.unsplash.com/photo-1505685296765-3a2736de412f?auto=format&fit=crop&w=900&q=80"
+                            alt="work" style="width:100%;display:block;filter:grayscale(60%)" /></div>
+                    <div style="border-radius:10px;overflow:hidden"><img
+                            src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80"
+                            alt="work" style="width:100%;display:block;filter:grayscale(60%)" /></div>
+    
+            </div>
+        </section>
+    </div>
+    <div class="newsletter">
+        <section id="newsletter">
+            <div style="max-width:var(--max-width);margin:0 auto;padding:0 24px;text-align:center">
+                <h3 style="color:white;margin-bottom:12px">Subscribe to my Newsletter</h3>
+                <p style="color:var(--muted);margin-bottom:18px">Get the latest news, articles,
+                    and resources about AI breakthroughs sent to your inbox weekly.</p>
+                <div class="boxed">
+                    <form class="newsletter" id="newsletter" autocomplete="on">
+                        <input id ="email" type="email" placeholder="Enter your email" required autocomplete="email" />
+                        <br>
+                        <button type="submit" class="btn-cta">Subscribe</button>
+                    </form>
+                </div>
+        </section>
+    </div>
+    <!-- Contact / Footer -->
+    <footer id="contact">
+        <div style="max-width:var(--max-width);margin:0 auto;padding:28px 24px;text-align:center">
+            <p style="margin:0 0 12px;color:var(--muted)">Interested in working together?</p>
+            <a class="btn-cta" id="btn-cta" href="mailto:Mfuradavies@gmail.com">Get in touch</a>
+            <p style="margin-top:22px;color:#6f7579">© Mfura Davies</p>
+        </div>
+    </footer>
+
+    <script src="davies.js"></script>
+</body>
+
+</html>
