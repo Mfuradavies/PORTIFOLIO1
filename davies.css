@@ -168,20 +168,20 @@ nav.primary a {
 }
 
 .profile {
-    width: 360px;
+    width: 280px;
     height: 360px;
     border-radius: 16px;
     object-fit: cover;
     box-shadow: 0 30px 60px rgba(2, 6, 23, .6);
     transform: translateY(-6%) rotate(-2deg);
-    border: 6px solid rgba(255, 255, 255, .02)
 }
 
 .profile-frame {
     position: absolute;
     right: 6%;
     top: 8%;
-    transform: translateX(10%)
+    transform: translateX(10%);
+
 }
 
 section {
@@ -386,7 +386,7 @@ footer {
     }
 
     .profile {
-        width: 280px;
+        width: 250px;
         height: 280px
     }
 
@@ -520,6 +520,8 @@ nav.primary a {
 }
 
 .greeting {
+    position: relative;
+    z-index: 2;
     font-size: clamp(28px, 6vw, 40px);
     font-weight: 800;
     color: #0b0b0b
@@ -535,6 +537,12 @@ nav.primary a {
     display: flex;
     gap: 10px;
     margin-top: 28px
+}
+
+.social.x,
+.social.github,
+.social.ig {
+    background-color: #000;
 }
 
 .social {
@@ -560,19 +568,25 @@ nav.primary a {
 
 .profile {
     width: 360px;
-    height: 360px;
-    border-radius: 16px;
+    height: 80%;
     object-fit: cover;
     box-shadow: 0 30px 60px rgba(2, 6, 23, 0.6);
-    transform: translateY(-6%) rotate(-2deg);
-    border: 6px solid rgba(255, 255, 255, 0.02)
+    transform: rotate(-2deg);
 }
 
 .profile-frame {
-    position: absolute;
+    position: relative;
+    z-index: 1;
     right: 6%;
-    top: 8%;
+    top: 5%;
+
     transform: translateX(10%);
+
+}
+
+#skills,
+#portfolio {
+    padding-left: 230px;
 }
 
 /* Content sections */
@@ -728,8 +742,8 @@ footer {
     }
 
     .profile {
-        width: 280px;
-        height: 280px
+        width: 260px;
+        height: 390px
     }
 
     .services-grid {
